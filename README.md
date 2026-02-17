@@ -32,11 +32,11 @@ jupyter notebook Analysis.ipynb
 
 ## Key findings
 
-- **Fear days (score 25-45) produce the highest mean daily PnL** ($11,333) -- not Greed days ($3,192). Moderate fear creates better trading conditions, but this is skewed by a few large wins. The median tells a more honest story: $396 on Fear vs $147 on Greed.
-- **Extreme Fear is genuinely bad** -- median PnL of $0, win rate of 17.4%, yet traders run their highest long ratio (65.7%). Dip-buying in full panic conditions is not working in this dataset.
-- **Greed days carry hidden risk** -- average drawdown of $1,857 vs $388 on Fear days. Traders size up when confident, and sometimes get caught badly.
-- **Traders are 49% more active on Fear days** -- 88 trades/day vs 59 on Greed -- without a proportional increase in returns.
-- **Win rate barely moves with sentiment** -- 35.0% on Fear, 35.3% on Greed. Sentiment changes the size of outcomes, not the frequency of winning.
+- **Fear days (score 25-45) produce the highest mean daily PnL** ($11,333) : not Greed days ($3,192). Moderate fear creates better trading conditions, but this is skewed by a few large wins. The median tells a more honest story: $396 on Fear vs $147 on Greed.
+- **Extreme Fear is genuinely bad** : median PnL of $0, win rate of 17.4%, yet traders run their highest long ratio (65.7%). Dip-buying in full panic conditions is not working in this dataset.
+- **Greed days carry hidden risk** : average drawdown of $1,857 vs $388 on Fear days. Traders size up when confident, and sometimes get caught badly.
+- **Traders are 49% more active on Fear days** : 88 trades/day vs 59 on Greed -- without a proportional increase in returns.
+- **Win rate barely moves with sentiment** : 35.0% on Fear, 35.3% on Greed. Sentiment changes the size of outcomes, not the frequency of winning.
 
 
 ## Data
