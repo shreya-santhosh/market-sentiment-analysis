@@ -48,3 +48,12 @@ jupyter notebook Analysis.ipynb
 
 The two datasets overlap from early 2024 onwards, giving 530 trader-day observations after merging.
 
+## Charts
+
+| Chart | What it shows |
+|-------|---------------|
+| ![Chart 1](outputs/chart1_performance_vs_sentiment.png) | PnL, win rate, drawdown: Fear vs Greed |
+| ![Chart 2](outputs/chart2_behavior_vs_sentiment.png) | How trader behavior shifts with sentiment |
+| ![Chart 3](outputs/chart3_segments_vs_sentiment.png) | Segment performance broken down by sentiment |
+| ![Chart 4](outputs/chart4_pnl_timeline.png) | PnL over time colored by sentiment label |
+| ![Chart 5](outputs/chart5_fg_buckets.png) | Numeric score buckets vs performance gradient |
