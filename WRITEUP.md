@@ -5,7 +5,7 @@
 
 ## Methodology
 
-I merged two datasets: 211,224 Hyperliquid trade records across 32 accounts (2023-2025), and a daily Bitcoin Fear & Greed index covering the same window. After aligning both to a daily date key, I aggregated individual trades to (account, date) level -- computing daily PnL, win rate, trade count, position size, long ratio, and a drawdown proxy. The final merged dataset has 530 trader-day observations. Analysis is at that level throughout.
+I merged two datasets: 211,224 Hyperliquid trade records across 32 accounts (2023-2025), and a daily Bitcoin Fear & Greed index covering the same window. After aligning both to a daily date key, I aggregated individual trades to (account, date) level. Computing daily PnL, win rate, trade count, position size, long ratio, and a drawdown proxy. The final merged dataset has 530 trader-day observations. Analysis is at that level throughout.
 
 ---
 
@@ -13,7 +13,7 @@ I merged two datasets: 211,224 Hyperliquid trade records across 32 accounts (202
 
 **1. Moderate Fear is the best time to trade -- Extreme Fear is a trap**
 
-Fear days (Fear & Greed score 25-45) produce the highest mean daily PnL at $11,333, beating Greed days ($3,192). But the median is more honest: $396 vs $147. The mean is skewed by a small number of large winning days during moderate fear conditions. Extreme Fear is different -- median PnL drops to zero and win rate falls to 17.4%, while traders are actually running their highest long bias (65.7%). The dip-buying instinct kicks in hard during panic, but the data shows it is not paying off.
+Fear days (Fear & Greed score 25-45) produce the highest mean daily PnL at $11,333, beating Greed days ($3,192). But the median is more honest: $396 vs $147. The mean is skewed by a small number of large winning days during moderate fear conditions. Extreme Fear is different median PnL drops to zero and win rate falls to 17.4%, while traders are actually running their highest long bias (65.7%). The dip-buying instinct kicks in hard during panic, but the data shows it is not paying off.
 
 **2. Greed days are riskier than they look**
 
@@ -34,5 +34,3 @@ The data shows traders run 49% more trades on Fear days without a 49% increase i
 Drawdown is 4.8x higher on Greed days. The confidence that comes with a Greed sentiment reading seems to lead traders to hold losing positions longer or size up without adjusting risk accordingly. A simple rule of tightening stop-losses by 20-30% on Greed days would reduce the tail-risk that the drawdown numbers reveal.
 
 ---
-
-*Note: This analysis covers 32 traders over a relatively short window. The directional findings are consistent and interpretable, but should be validated on a larger sample before being used in a live trading context.*
